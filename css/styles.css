@@ -4,15 +4,40 @@ body {
   background-color: #fff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /*-------------- HEADER------------------ */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header-nav {
 }
@@ -79,7 +104,11 @@ ul {
 
 .main-title {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin: 0 auto;
 }
+
 .main-title-text {
   font-weight: 700;
   font-size: 56px;
@@ -87,7 +116,11 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
+
 .main-title-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -97,6 +130,11 @@ ul {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 .main-title-btn:hover,
@@ -108,12 +146,18 @@ ul {
 
 /*------------company basics--------------- */
 
+.company {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .company-title {
   /*hidden text */
 }
 .company-title-list {
 }
 .company-title-item {
+  max-width: 264px;
 }
 .company-subtitle {
   font-weight: 500;
@@ -121,6 +165,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .company-subtitle-text {
   font-size: 16px;
@@ -135,6 +180,8 @@ ul {
 
 .team-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -145,11 +192,15 @@ ul {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-title-list {
 }
 .team-title-item {
   background-color: #ffffff;
+  max-width: 264px;
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 32px;
 }
 .team-title-image {
 }
@@ -160,6 +211,8 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .team-subtitle-text {
   font-size: 16px;
