@@ -52,7 +52,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-logo-link {
@@ -64,6 +63,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -85,6 +85,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -110,6 +111,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .header-contacts-link:hover,
